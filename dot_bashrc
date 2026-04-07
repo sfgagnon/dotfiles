@@ -66,6 +66,8 @@ alias clip='xclip -selection clipboard'
 alias ctoken='cat ~/workspace/git.token | clip'
 alias cremote="git remote -v | sed -n 's/origin\(.*\)(fetch)/\1/p' | clip"
 
+export PATH=$PATH:~/.local/bin
+
 eval "$(fzf --bash)"
 eval "$(zoxide init bash)"
 eval "$(direnv hook bash)"
