@@ -1,0 +1,8 @@
+[".oh-my-bash"]
+    type = "git-repo"
+    url = "https://github.com/ohmybash/oh-my-bash.git"
+    refreshPeriod = "168h"
+[".config/tmux/plugins/tpm"]
+    type = "git-repo"
+    url = "https://github.com/tmux-plugins/tpm"
+    refreshPeriod = "168h"
